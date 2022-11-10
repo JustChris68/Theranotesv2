@@ -1,0 +1,40 @@
+{
+  "LabelFrames": {
+    "MainFrame": {
+      "Parent": "self.viewwin",
+      "Label": "Main Window Frame",
+      "Grid": "row = 0, column = 0",
+      "Options": "sticky = 'nsew'"
+    },
+    "self.ButtonFrame": {
+      "Parent": "self.MainFrame",
+      "Label": "Button Frame",
+      "Grid": "row = 1, column = 0",
+      "Options": "sticky = 'nsew'"
+    },
+    "self.DataAddFrame": {
+      "Parent": "self.MainFrame",
+      "Label": "Data Add Frame",
+      "Grid": "row = 2, column = 0",
+      "Options": "sticky = 'nsew'"
+    },
+    "self.VariableFrame": {
+      "Parent": "self.MainFrame",
+      "Label": "Variable Frame",
+      "Grid": "row = 3, column = 0",
+      "Options": "sticky = 'nsew'"
+    },
+    "self.DataViewFrame": {
+      "Parent": "self.MainFrame",
+      "Label": "Data View Frame",
+      "Grid": "row = 4, column = 0",
+      "Sticky": "sticky = 'nsew'"
+    }
+  },
+  "Labels": {
+    "self.Testlbl": {
+      "Parent": "self.ButtonFrame",
+      "text": "sometext"
+    }
+  }
+}
